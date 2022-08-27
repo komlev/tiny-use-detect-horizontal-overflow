@@ -3,8 +3,7 @@
 Small (~1 Kb) react hook for detecting items are overflown.
 Something like this:
 
-https://user-images.githubusercontent.com/513452/187029222-f077dee2-6e4b-4164-9518-fe9be9e267e4.mp4
-
+https://user-images.githubusercontent.com/513452/187036288-391537e1-4a09-44eb-b71e-9fcd8f1cfaaa.mp4
 
 ## Usage
 
