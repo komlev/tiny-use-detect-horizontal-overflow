@@ -40,12 +40,12 @@ export const useDetectHorizontalOverflow = (
     let func = (entries) => {
       if (!entries.length) return null;
 
-      const endX = entries[0].contentRect.width;
+      const r = node.getBoundingClientRect();
       const children = parent.childNodes;
       const result = new Set();
-      children.forEach((node) => {
-        const element = node;
-        if (element.offsetLeft + element.offsetWidth > endX) {
+      children.forEach((element) => {
+        const cr = element.getBoundingClientRect();
+        if (cr.x - r.x + cr.width > r.width) {
           result.add(element);
         }
       });
