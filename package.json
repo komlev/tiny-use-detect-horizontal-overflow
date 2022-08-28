@@ -1,6 +1,6 @@
 {
   "name": "tiny-use-detect-horizontal-overflow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Detects horizontal overflow of items inside container which has width limit",
   "main": "./dist/useDetectHorizontalOverflow.umd.js",
   "module": "./dist/useDetectHorizontalOverflow.es.js",
